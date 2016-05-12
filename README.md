@@ -1,6 +1,6 @@
 # `@tatumcreative/get`
 
-![build status][travis-image][travis-url]
+[![build status][travis-image]][travis-url]
 
 [travis-image]: https://img.shields.io/travis/TatumCreative/npm-get/master.svg?style=flat-square
 [travis-url]: http://travis-ci.org/TatumCreative/npm-get
