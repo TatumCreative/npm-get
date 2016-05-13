@@ -5,9 +5,9 @@
 [travis-image]: https://img.shields.io/travis/TatumCreative/npm-get/master.svg?style=flat-square
 [travis-url]: http://travis-ci.org/TatumCreative/npm-get
 
-A collection of zero-config `get` functions for fetching things on the internet.
+A collection of zero-config `GET` functions for fetching things on the internet.
 
-# getText(url) => Promise(text)
+### `getText(url) => Promise(text)`
 
 Load the text, returns a Promise that resolves to the text. The error is the
 failing XMLHttpRequest object.
@@ -19,7 +19,7 @@ getText("/foo.txt").then(
 )
 ```
 
-# getJSON(url) => Promise(json)
+### `getJSON(url) => Promise(json)`
 
 Load some JSON, returns a Promise that resolves to the parsed JSON object. The
 error is either the failing XMLHttpRequest object, or a SyntaxError if the JSON
@@ -32,7 +32,7 @@ getJSON("/foo.json").then(
 )
 ```
 
-# getImage(url) => Promise(imageElement)
+### `getImage(url) => Promise(imageElement)`
 
 Load an HTMLImageElement. It only resolves after the image is fully downloaded.
 
@@ -43,7 +43,7 @@ getImage("/foo.png").then(
 )
 ```
 
-# getImageData(url) => Promise({data, width, height})
+### `getImageData(url) => Promise({data, width, height})`
 
 Load an image and get an [ImageData](ImageData) object `{data, width, height}`.
 The data property is a [Uint8ClampedArray](Uint8ClampedArray) that is an array
@@ -59,7 +59,7 @@ getImageData("/foo.png").then(
 )
 ```
 
-# Example with parameters
+## Example with parameters
 
 These functions don't care about fancy parameters, but it's trivial to do with
 the [query-string](query-string) package.
