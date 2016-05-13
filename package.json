@@ -1,6 +1,6 @@
 {
   "name": "@tatumcreative/get",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A simple XMLHttpRequest wrapper",
   "main": "index.js",
   "directories": {
