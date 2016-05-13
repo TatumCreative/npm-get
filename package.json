@@ -1,6 +1,6 @@
 {
   "name": "@tatumcreative/get",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple XMLHttpRequest wrapper",
   "main": "index.js",
   "directories": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TatumCreative/npm-xhr.git"
+    "url": "git+https://github.com/TatumCreative/npm-get.git"
   },
   "author": "Greg Tatum",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TatumCreative/npm-xhr/issues"
+    "url": "https://github.com/TatumCreative/npm-get/issues"
   },
-  "homepage": "https://github.com/TatumCreative/npm-xhr#readme",
+  "homepage": "https://github.com/TatumCreative/npm-get#readme",
   "devDependencies": {
     "devtool": "^1.11.2",
     "tape": "^4.5.1",

@@ -1,11 +1,10 @@
 # `@tatumcreative/get`
 
-[![build status][travis-image]][travis-url]
-
-[travis-image]: https://img.shields.io/travis/TatumCreative/npm-get/master.svg?style=flat-square
-[travis-url]: http://travis-ci.org/TatumCreative/npm-get
-
 A collection of zero-config `GET` functions for fetching things on the internet.
+Make sure node and npm is installed and then run
+`npm install @tatumcreative/get`. Then require the function you need like
+`const { getText } = require("@tatumcreative/get")`. The internals use only
+ES5 code, but all examples and tests are ES6.
 
 ### `getText(url) => Promise(text)`
 
